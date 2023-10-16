@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Pronostique Sportive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>IA Pronostique Sportive</h1>
+    </header>
+    
+    <main>
+        <div class="input-container">
+            <label for="user-input">Posez votre question :</label>
+            <input type="text" id="user-input">
+            <button onclick="getPrediction()">Obtenir la prédiction</button>
+        </div>
+
+        <div class="output-container">
+            <h2>Résultat :</h2>
+            <div id="prediction-result"></div>
+            <script src="scriptGPT.js"></script>
+        </div>
+    </main>
+</body>
+</html>
